@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catpuccino Haven</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Catpuccino Haven</div>
+        <div class="tagline">Sip, Purr & Unwind!</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('about')">About</a></li>
+            <li><a href="#" onclick="showSection('menu')">Menu</a></li>
+            <li><a href="#" onclick="showSection('visit')">Visit</a></li>
+            <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Catpuccino Haven!</h2>
+            <p>Find joy in every sip and every soft purr at Catpuccino Haven.</p>
+            
+            <div class="cat-grid">
+                <div class="cat-card">
+                    <img src="https://images.unsplash.com/photo-1550948309-0d8983dbdcc3" alt="Coffee" class="cat-image">
+                    <div class="cat-info">
+                        <h3>Breathe in the magic of coffee and cuddles ☕︎</h3>
+                        <p>All our coffee is made with locally roasted beans. We also offer delicious food and pastries to complement your drinks.</p>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8" alt="Cat" class="cat-image">
+                    <div class="cat-info">
+                        <h3>Purring companions and peaceful moments 🐾</h3>
+                        <p>Discover the magic of feline companionship while savoring truly great coffee and delectable bites.</p>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <img src="https://images.unsplash.com/photo-1636392589501-8207cba0761b" alt="Cafe" class="cat-image">
+                    <div class="cat-info">
+                        <h3>Unwind in our cozy cafe!</h3>
+                        <p>Our space is designed to be a haven for both cats and coffee enthusiasts, creating a stress-free environment for all our guests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" style="display:none;">
+            <h2>About Us</h2>
+            <p>Catpuccino Haven is the perfect blend of a cat-friendly haven and a cozy coffee shop. Our goal is to provide a unique experience by combining the love for cats with the enjoyment of high-quality coffee and delicious treats. </p> 
+            <p>We also give the latest update's about Catpuccino Haven in our youtube. Featuring cinematic and exciting vlogs for our customers to enjoy! Catpuccino Haven will always makes sure to give a comforting feel that they can enjoy and watch when having the need to unwind some stress. </p>
+            <p>All our cats are well cared for and love meeting visitors.</p>
+            
+            <h3>Our Hours</h3>
+            <p>Monday-Saturday: 10am-9pm<br>
+            Sunday: 12am-8pm</p>
+        </section>
+        
+        <section id="menu" style="display:none;">
+            <h2>Our Menu</h2>
+            
+            <h3 class="menu-category">Coffee</h3>
+            <div class="menu-item">
+                <div>Catpuccino</div>
+                <div class="price">₱90.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Mocha</div>
+                <div class="price">₱80.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Macchiato</div>
+                <div class="price">₱90.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Iced Coffee/Frappuccino</div>
+                <div class="price">₱100.0</div>
+            </div>
+
+            <h3 class="menu-category">Non-Coffee Drinks</h3>
+            <div class="menu-item">
+                <div>Iced Tea</div>
+                <div class="price">₱50.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Iced/Hot Matcha</div>
+                <div class="price">₱70.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Ube Frappe</div>
+                <div class="price">₱75.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Chocolate Frappe</div>
+                <div class="price">₱90.0</div>
+            </div>
+
+            <h3 class="menu-category">Dishes</h3>
+            <div class="menu-item">
+                <div>Carbonara</div>
+                <div class="price">₱130.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Chicken Pastil</div>
+                <div class="price">₱75.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Tapsilog</div>
+                <div class="price">₱95.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Egg Fried Rice</div>
+                <div class="price">₱65.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Tuna Pasta</div>
+                <div class="price">₱125.0</div>
+            </div>
+
+            <h3 class="menu-category">Pastries</h3>
+            <div class="menu-item">
+                <div>Croissant</div>
+                <div class="price">₱115.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Donut</div>
+                <div class="price">₱90.0</div>
+            </div>
+            <div class="menu-item">
+                <div>Chocolate Cake</div>
+                <div class="price">₱120.0</div>
+            </div>
+        </section>
+        
+        <section id="visit" style="display:none;">
+            <h2>Visit Us</h2>
+            <p><strong>Address:</strong> Molino III APEC SCHOOLS, Bacoor</p>
+            <p><strong>Hours:</strong> Mon-Sat 10am-9pm, Sunday 12am-8pm</p>
+            
+            <h3>Rules</h3>
+            <ul>
+                <li>Be gentle with the cats</li>
+                <li>Ask Permission when giving treats to cats</li>
+                <li>Wash hands when you arrive</li>
+            </ul>
+            
+            <a href="#" class="btn">Book a Visit</a>
+        </section>
+        
+        <section id="contact" style="display:none;">
+            <h2>Contact Us</h2>
+            <p>Email: catpuccinohaven@gmail.com<br>
+            Phone: +63 917 777 4136</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="social-section">
+                <h3>Follow our socials to stay updated!</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/catpuccino.haven" target="_blank">Instagram</a>
+                    <a href="https://youtube.com/@catpuccinohaven" target="_blank">YouTube</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 By Catpuccino Haven. All rights Reserved.</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+<script>
+  // Test function directly
+  function showSection(sectionId) {
+      alert("Working! Section: " + sectionId); // Check if this runs
+      document.querySelectorAll('main section').forEach(section => {
+          section.style.display = 'none';
+      });
+      document.getElementById(sectionId).style.display = 'block';
+  }
+</script>
+</body>
+</html>
